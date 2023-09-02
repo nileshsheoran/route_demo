@@ -22,7 +22,7 @@ class ProfileScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, RouteConst.settingScreen,
                       arguments: {
-                        "name": "Golu",
+                        "name": "Gold",
                         "age": 17,
                         "isPass": true,
                       });
